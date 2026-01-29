@@ -1,7 +1,7 @@
 {
   "name": "ai-k8s",
   "version": "1.0.0",
-  "description": "Generate Kubernetes manifests from docker-compose files or plain descriptions",
+  "description": "AI-powered Kubernetes manifest generator - deployments, services, and configs with GPT",
   "main": "dist/index.js",
   "bin": {
     "ai-k8s": "dist/cli.js"
@@ -10,11 +10,21 @@
     "build": "tsc"
   },
   "keywords": [
+    "ai",
+    "openai",
+    "gpt",
     "kubernetes",
     "k8s",
-    "docker-compose",
-    "ai",
-    "devops"
+    "devops",
+    "yaml",
+    "deployment",
+    "developer-tools",
+    "cli",
+    "automation",
+    "typescript",
+    "nodejs",
+    "helm",
+    "containers"
   ],
   "license": "MIT",
   "dependencies": {
