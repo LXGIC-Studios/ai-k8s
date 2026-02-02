@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "AI-powered Kubernetes manifest generator - deployments, services, and configs with GPT",
   "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
   "bin": {
     "ai-k8s": "dist/cli.js"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc"
   },
@@ -29,7 +34,27 @@
     "helm",
     "containers"
   ],
+  "author": "LXGIC Studios",
   "license": "MIT",
+  "homepage": "https://github.com/LXGIC-Studios/ai-k8s#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LXGIC-Studios/ai-k8s"
+  },
+  "bugs": {
+    "url": "https://github.com/LXGIC-Studios/ai-k8s/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "dependencies": {
     "commander": "^12.1.0",
     "openai": "^4.73.0",
@@ -40,10 +65,5 @@
     "typescript": "^5.6.0",
     "@types/node": "^22.0.0",
     "@types/js-yaml": "^4.0.9"
-  },
-  "author": "LXGIC Studios",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lxgicstudios/ai-k8s"
   }
 }
