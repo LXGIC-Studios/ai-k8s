@@ -1,5 +1,5 @@
 {
-  "name": "ai-k8s",
+  "name": "@lxgicstudios/ai-k8s",
   "version": "1.0.0",
   "description": "AI-powered Kubernetes manifest generator - deployments, services, and configs with GPT",
   "main": "dist/index.js",
