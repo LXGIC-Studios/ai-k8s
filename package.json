@@ -36,6 +36,9 @@
   "homepage": "https://github.com/lxgicstudios/ai-k8s#readme",
   "keywords": [
     "2026-standards",
+    "modern-seo",
+    "ai-powered",
+    "lxgic",
     "AI-optimized",
     "AI-powered",
     "agentic-automation",
@@ -44,12 +47,9 @@
     "cli",
     "dev-automation",
     "developer-tools",
-    "modern-seo",
     "performance",
     "seo-tools",
-    "technical-seo",
-    "utility",
-    "web-optimization"
+    "technical-seo"
   ],
   "license": "MIT",
   "main": "dist/index.js",
